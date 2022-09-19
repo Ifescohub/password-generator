@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Password Generator</title>
+
+        <!-- CSS Style  -->
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- JavaScript  -->
+        <script src="index.js" type="module" defer></script>
+    </head>
+    <body>
+        <main>
+            <h1>Generate a <span>random password</span></h1>
+            <p>Never use an insecure password again.</p>
+    
+            <form action="">
+                <fieldset>
+                    <label for="input">Password length</label>
+                    <input id="input" type="number" value="8">
+                </fieldset>
+
+                <fieldset>
+                    <label for="numbers">Include Numbers</label>
+                    <div class="check-container">
+                        <input type="checkbox" id="numbers" checked/>
+                        <div class="knobs"></div>
+                        <div class="layer"></div>
+                    </div>
+                    
+                </fieldset>
+
+                <fieldset>
+                    <label for="symbols">Include Symbols</label> 
+                    <div class="check-container r">
+                        <input type="checkbox" id="symbols" checked />
+                        <div class="knobs"></div>
+                        <div class="layer"></div>
+                    </div>
+                    
+                </fieldset> 
+            </form>
+            
+            <button>Generate passwords</button>
+    
+            <hr>
+    
+            <div class="psContainer">
+                <div class="password-el">Password 1</div>
+                <div class="password-el">password 2</div>
+            </div>
+
+            <p class="copy-notice">Click any password to copy to clipboard</p>
+        </main>
+
+        <footer>
+            <p>
+                Made with ❤️ by <a href="https://github.com/Ifescohub" target="_blank">Udeh Ifeanyi</a> 
+            </p>
+        </footer>
+    </body>
+</html>
