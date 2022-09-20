@@ -17,15 +17,11 @@ This is a solution to the [Scrimba Password Generator Solo Project](https://scri
 
 ## Overview
 
-### The rules
+  Users will be able to:
 
-Candidates should be able to:
-
-- Have fun, no pressure
-- Make the website responsive
-- Have clean codes
-- Use modern semantic HTML
--Use structured and reuseable codes if library is used
+- generate random password on each button click,
+- include or not include(toggle) numbers or symbols,
+- copy password to clipboard on click of any of the password
 
 ### Screenshot
 
@@ -33,17 +29,17 @@ Candidates should be able to:
 
 ### Links
 
-- Solution URL: [github.com/Ifescohub/crypto-currency](https://github.com/Ifescohub/crypto-currency)
-- Live Site URL: [zesty-mooncake-9d3f86.netlify.app/](https://zesty-mooncake-9d3f86.netlify.app/)
+- Solution URL: [github.com/Ifescohub/password-generator](https://github.com/Ifescohub/password-generator)
+- Live Site URL: [https://transcendent-biscotti-763009.netlify.app/](https://transcendent-biscotti-763009.netlify.app/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
+- HTML5 markup
 - Pure CSS
-- Flexbox
 - Vanilla JavaScript
+- Flexbox
 - CSS Grid
 - Desktop-first workflow
 - [Google Fonts](https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap) - For Fonts
