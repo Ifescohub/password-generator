@@ -220,6 +220,8 @@ hr{
     padding-block: 0.5rem 0.7rem;
     text-align: center;
     flex-wrap: wrap;
+    cursor: pointer;
+    border-radius: 0.5rem;
 }
 
 .psContainer *:active{
