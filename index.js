@@ -66,9 +66,11 @@ passwordElement.forEach((password) => {
     password.addEventListener("click", ()=>{
         navigator.clipboard.writeText(password.innerHTML);
         copyNotice.textContent = `"${password.textContent}" copied to clipboard`;
+        copyNotice.classList.add("active");
         
         setTimeout(() => {
             copyNotice.textContent = `Click any password to copy to clipboard`;
+            copyNotice.classList.remove("active");
         }, 2000);
     })
 })

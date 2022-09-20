@@ -263,6 +263,10 @@ hr{
     text-align: center;
 }
 
+.copy-notice.active{
+    font-weight: 700;
+}
+
 
 /* Footer  */
 footer{
