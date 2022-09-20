@@ -8,6 +8,15 @@ const symbolBox = document.getElementById("symbols");
 const passwordElement = document.querySelectorAll(".password-el");
 const copyNotice = document.querySelector(".copy-notice")
 
+const modeSwitch = document.getElementById("mode-switch");
+const body = document.querySelector("body");
+
+
+//FORMATTING MODE SWITCH BETWEEN LIGHT AND DARK
+modeSwitch.addEventListener("click", ()=>{
+    body.classList.toggle("light-mode");
+})
+
 
 //FORMATTING BUTTON TO GENERATE CHARACTERS AND RANDOM PASSWORD
 button.addEventListener("click", ()=> {
@@ -18,7 +27,6 @@ button.addEventListener("click", ()=> {
 
 
 let characters = [];
-
 //fORMATTING CHARACTERS
 function generateCharacter() {
     const {alphabet, numbers, symbols} = allCharacter;
@@ -64,3 +72,5 @@ passwordElement.forEach((password) => {
         }, 2000);
     })
 })
+
+
