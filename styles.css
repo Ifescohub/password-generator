@@ -354,7 +354,13 @@ body.light-mode .psContainer *{
     main{
         width: 26rem;
         max-width: 95%;
+        box-shadow: none;
     }
+
+    body.light-mode main{
+        box-shadow: none;
+    }
+
     .psContainer{
         display: flex;
         flex-direction: column;
