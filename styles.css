@@ -38,7 +38,7 @@ main{
     width: 40rem;
     max-width: 90%;
     padding: 2rem;
-    margin: auto;
+    margin: 2rem auto;
     box-shadow: 0 0 0.8rem 0.8rem var(--clr-dark-2);
 }
 
@@ -266,8 +266,9 @@ hr{
 
 /* Footer  */
 footer{
-    margin-inline: auto;
+    margin: 0 auto 1rem;
 }
+
 footer a{
     text-decoration: none;
     color: var(--clr-blue);
@@ -345,10 +346,10 @@ body.light-mode .psContainer *{
 
 
 /* Mobile Screen  */
-@media (max-width: 37em) {
+@media (max-width: 40em) {
     main{
-        width: 30rem;
-        max-width: 950%;
+        width: 26rem;
+        max-width: 95%;
     }
     .psContainer{
         display: flex;

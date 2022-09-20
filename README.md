@@ -26,6 +26,7 @@ This is a solution to the [Scrimba Password Generator Solo Project](https://scri
 ### Screenshot
 
 ![](./screenshots/screenshot1.png)
+![](./screenshots/screenshot2.png)
 
 ### Links
 
