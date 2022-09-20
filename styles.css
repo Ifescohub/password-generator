@@ -24,7 +24,7 @@
 
 body {
     display: grid;
-    /* place-items: center; */
+    place-items: center;
     width: 100%;
     min-height: 100vh;
     background: var(--clr-dark);
@@ -38,7 +38,7 @@ main{
     width: 40rem;
     max-width: 90%;
     padding: 2rem;
-    margin: 2rem auto;
+    margin: 1rem auto;
     box-shadow: 0 0 0.8rem 0.8rem var(--clr-dark-2);
 }
 
